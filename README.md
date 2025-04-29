@@ -82,3 +82,4 @@ Tschüssi & Ciao (･ω･)/
 
 ⸻
 
+also thanks to https://github.com/Elxes04/EXEUbot for being a good teacher
