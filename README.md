@@ -1,7 +1,7 @@
 # Buckshot Roulette: Python Practice „Software” Version 1.0α
 
 # DISCLAIMER:
-Hi. I’m just a stupid girl who decided to start coding in her 20s (late bloomer vibes, I’ll probably never be good).
+Hi. I’m just a stupid human who decided to start coding in her 20s (late bloomer vibes, I’ll probably never be good).
 This weird lil’ Python project is nothing more than a messy, exaggeratedly redundant, and probably inefficient exercise. Please don’t be mad at it(◞‸◟). It’s just me figuring out how to think like a programmer.
 
 If you’re looking at the code and asking “why would she write it like this?”—the answer is most likely: I had no idea what I was doing, but I was having fun. And that’s the point.
