@@ -83,7 +83,7 @@ Wanna support my weird little projects?
 	•	[Buy Me a Coffee]
 	•	Or just leave a kind comment somewhere on the internet.
 
-Special thanks to @Elxes04 for being an excellent chaos-enabler.
+Special thanks to github.com/Elxes04 for being an excellent chaos-enabler.
 
 ⸻
 
