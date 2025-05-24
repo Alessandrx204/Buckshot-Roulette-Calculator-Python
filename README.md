@@ -1,85 +1,96 @@
-# Buckshot Roulette: Python Practice „Software” Version 1.0α
 
-# DISCLAIMER:
-Hi. I’m just a stupid human who decided to start coding in her 20s (late bloomer vibes, I’ll probably never be good).
-This weird lil’ Python project is nothing more than a messy, exaggeratedly redundant, and probably inefficient exercise. Please don’t be mad at it(◞‸◟). It’s just me figuring out how to think like a programmer.
 
-If you’re looking at the code and asking “why would she write it like this?”—the answer is most likely: I had no idea what I was doing, but I was having fun. And that’s the point.
+# Buckshot Roulette: Python Practice „Software”
 
-This “software” was made for laughs, chaos, and a bit(too much) of mathematical curiosity(and a bored autistic mind at work :З).
-
-So if you run it and it breaks your play or confuses you: that’s fair.
-But don’t abuse this „software”, okay?
-And if your friends ask you not to play with it, maybe listen to them. Or don’t. I’m not your mom.
+Version 1.1β - “burner phone edition”
 
 ⸻
 
-What This Project Is
+❗ DISCLAIMER
 
-This is a mini Python What This Project Actually Is
+Hi. Still me. Still vibing. Still not a real software engineer.
 
-This script helps you:
-	•	Track how many blank and full rounds are left in your (what is believe being a )revolver(火器に付いてマジでなんも知らんねん) during the game.
-	•	Visually display the “cartridge” and how it changes as you use bullets.
-	•	Keep a running probability calculation for each type of shot remaining.
-	•	Update the cartridge every time someone fires(or drink the Soda), and recalculate everything instantly.
+This weird, mathy, probably inefficient piece of Python is a late-night coding experiment by someone figuring things out one Fraction at a time. If you’re here expecting clean code or scalable architecture… why. Just why.
 
-It’s like a little sidekick during the game.
-A weird Python-made assistant that watches the bullets with you and says:
-“Hey… you’ve got a 33.3% chance this next one’s a full shot, there are 2 blanks left . Good luck, I guess?”
+This is messy. It’s extra. It’s held together by vibes, curiosity, and a Burner Phone. If it works, cool. If it crashes your imaginary game night, that’s also kinda the point? Don’t be mad (╥﹏╥)
 
-This is not a real game—there’s no randomizer or opponent or game logic like win/lose.
-It’s more of a… dramatic bullet management interface for the game Buckshot roulette.
+So yeah: chaos, jokes, math, and bullets (fake ones). Proceed accordingly.
 
 ⸻
 
-How It Works
+💡 What This Project Actually Is
 
-The script has one big function: parte1(). (Parte = part in Italian)
+It’s a cartridge probability tracker for the game Buckshot Roulette.
+Basically:
+	•	🎯 Track how many blanks/full shots are left in your revolver (← don’t quote me on firearm terms, I know nothing about guns 火器に付いてマジでなんも知らん).
+	•	🧮 Real-time math on your odds every time a shot is taken.
+	•	🎞️ Visual display of the current cartridge.
+	•	🔮 Burner Phone mode lets you simulate cryptic bullet predictions.
+	•	🎭 Dramatic flair, sassy outputs, and random Japanese phrases included for flavor.
 
-Inside it:
-	•	You start by inputting the number of blank and full bullets.
-	•	The code prints out the total and displays a visual cartridge ([X][X][X]...).
-	•	It calculates and shows the exact probabilities of drawing a blank or a full shot.
-	•	Then, in a little dramatic twist, it lets you “fire” bullets (one at a time) by telling it whether it was a blank (B) or full (F).
-	•	It updates the visuals, stats, and probability accordingly.
-	•	If the cartridge runs out, the program ends with a sassy goodbye.
-
-There’s also some random Japanese and semi-serious jokes thrown in because why not.
+This isn’t a game engine—there’s no winning or losing logic. Just you, the bullets, and your questionable life choices.
 
 ⸻
 
-Notes
-	•	The code uses Fraction for precise probabilities (because decimals are liars 10進数信じたらアカンわ〜　-_-b ).
-	•	The visual cartridge changes depending on whether only blanks or only fulls are left.
-	•	There are planned placeholders for more features, but they don’t exist yet. Sorry, maybe in v2.0? Chissà 
-	•	Yes, the variable names are a mess. I was vibing, not engineering.
+⚙️ How It Works
+
+The main loop runs automatically. Here’s what goes down:
+	1.	📦 You input how many blanks and full shots to load.
+	2.	🎨 The cartridge is displayed visually. ([B][F][F]… etc.)
+	3.	📊 Probabilities of drawing blanks/full are calculated using Fraction (because decimals are filthy liars: 10進数信じたらアカンわ〜).
+	4.	🔫 Every time you “fire” a round, you log whether it was blank (B) or full (F), and the cartridge + stats update instantly.
+	5.	📱 Optional: invoke the mysterious Burner Phone, which offers odd advice or forced fate twists.
+	6.	🚪 When you run out of rounds, the program exits with a slightly passive-aggressive goodbye.
 
 ⸻
 
-Future Plans?
+☎️ About the Burner Phone™
 
-Maybe add:
-	•	Every usable object.
-	•	More GUI-like UI.
-	•	option to says(you didn’t paid attention to the kind of used bullet .
-	•	Cleaner, smarter code… one day(don’t believe in it too much草).
-     •     Localised versions (I’m a language nerd)
+A mischievous feature that:
+	•	Lets you simulate external “intel” on what’s coming next.
+	•	Can override cartridge data with dramatic flair.
+	•	Comes with its own rules, contradictions, and TODOs because life is messy.
+
+Yes, it’s confusing. That’s the point. Suffer beautifully.
 
 ⸻
 
-Final Thoughts🧐
+📓 Notes
+	•	Built with Python 3 and Fraction because trust in decimals was lost early on.
+	•	No GUI. No fancy visuals. Just pure uncut console output energy.
+	•	Cartridge display updates dynamically, and changes style based on what’s left.
+	•	Some variables and functions have names that make sense only at 2AM. Respect the chaos.
 
-If you came here expecting serious software, that’s on you.
-This is a baby project by a baby coder.
-It took me days. Show some respect. Or buy me a coffee(or a game on steam)[Steam Wishlist] [buymeacoffe] 
+⸻
 
-Anyway… thanks for playing with my weird brainchild.
-https://linktr.ee/kawaiifumiko002
+🧪 Future Features (Maybe)
+	•	All usable game objects.
+	•	GUI mode with buttons and maybe animations (don’t bet on it).
+	•	Fix burner_phone contradictions (currently: a mess).
+	•	Support for localization (cuz I’m a language nerd).
+	•	More useful error handling (lol).
+	•	Clean, smart code (delusional optimism moment).
+
+⸻
+
+🎤 Final Thoughts
+
+If you’re using this, thank you. If you broke it, congrats.
+This is not a product—it’s a digital diary of me trying to think like a coder.
+
+Wanna support my weird little projects?
+	•	[Steam Wishlist]
+	•	[Buy Me a Coffee]
+	•	Or just leave a kind comment somewhere on the internet.
+
+Special thanks to @Elxes04 for being an excellent chaos-enabler.
+
+⸻
 
 Tschüssi & Ciao (･ω･)/
-„Software“ ends here.
+“Software” ends here.
+Cue dramatic reverb effect.
 
 ⸻
 
-also thanks to https://github.com/Elxes04 for being a good teacher
+Would you like me to save this as a README.md file to go along with your script? ￼
