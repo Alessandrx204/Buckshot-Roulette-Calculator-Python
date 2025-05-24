@@ -90,7 +90,3 @@ Special thanks to @Elxes04 for being an excellent chaos-enabler.
 Tschüssi & Ciao (･ω･)/
 “Software” ends here.
 Cue dramatic reverb effect.
-
-⸻
-
-Would you like me to save this as a README.md file to go along with your script? ￼
