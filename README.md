@@ -1,3 +1,4 @@
+## this is my first ever coding project from the time i started programming since only a couple of weeks ! 
 
 
 # Buckshot Roulette: Python Practice „Software”
