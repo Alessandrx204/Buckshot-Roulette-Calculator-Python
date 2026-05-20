@@ -1,4 +1,4 @@
-note: this is my first ever coding project from the time i started programming since only a couple of weeks ! 
+note: this was my first ever coding project from the time i started programming since only a couple of weeks ! 
 
 
 # Buckshot Roulette: Python Practice „Software”
@@ -81,7 +81,7 @@ This is not a product—it’s a digital diary of me trying to think like a code
 
 Wanna support my weird little projects?
 	•	[Steam Wishlist]
-	•	[Buy Me a Coffee]
+	•	[Buy Me a Coffee](https://ko-fi.com/alessia57444)
 	•	Or just leave a kind comment somewhere on the internet.
 
 Special thanks to github.com/Elxes04 for being a great teacher.
