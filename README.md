@@ -27,7 +27,7 @@ Basically:
 	•	🧮 Real-time math on your odds every time a shot is taken.
 	•	🎞️ Visual display of the current cartridge.
 	•	🔮 Burner Phone mode lets you simulate cryptic bullet predictions.
-	•	🎭 Dramatic flair, sassy outputs, and random Japanese phrases included for flavor.
+	•	🎭 Dramatic flair, sassy outputs, and random Japanese phrases included for flavour.
 
 This isn’t a game engine—there’s no winning or losing logic. Just you, the bullets, and your questionable life choices.
 
